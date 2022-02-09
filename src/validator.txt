@@ -1,0 +1,24 @@
+Implementando a LOGICA JS com o algotitimo de Lunh, em um Validador de Cartão:
+
+
+Pegar uma string com  numero digitado pelo usuario (entre 13 e 19 digitos) e 
+guardar em uma variavel.
+Colocar essa variavel em um array de tras para frente; OK
+Pegamos os numeros que estao nas posições pares e multiplicamos por 2; OK
+Pegar os resultados dos numeros, se o resultado for maior que 9, subtrai 9; ok 
+Somamos os resultados das multiplicções  aos numeros restantes; ok 
+Verificamos se o valor da SOMA é divisivel por 10;
+Retornamos um valor boolean (se for divisivel retorna true, se não false)
+
+
+Maskfy:
+
+
+
+
+
+
+
+
+Index:
+

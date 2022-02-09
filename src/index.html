@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8" />
+  <title>CARD VALIDATION</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js" type="module"></script>
+
+</head>
+
+<body>
+
+  <form>
+    <div id="root" class=" pagina">
+
+      <div class="titulo">
+        <h1>Insira o número do seu cartão, para finalizar suas compras!</h1>
+      </div>
+
+
+      <div class="container">
+        <div class="input"><input id="numeroCartao" class="inputNum" type="tel" inputmode="numeric"
+            pattern="[0-9]{13,19}" title="Digite de 13 a 19 números*" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+          </input></div>
+      </div>
+      <div class="button">
+        <button id="botao" type="submit" class="btn">Confirmar</button><br>
+
+      </div>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
-</html>
+
+
+
+  </form>

@@ -20,23 +20,22 @@ const validator = {
       if (i % 2 === 0) {
   
           total = total + cardNumber[i]
-          console.log("entrou no if",i, cardNumber[i], "essa posição é impar" )
+        //  console.log("entrou no if",i, cardNumber[i], "essa posição é impar" )
   
   
       } else {
           dobra = cardNumber[i] * 2;
-          console.log("entrou no else",i, cardNumber[i], "essa posição é par", dobra )
+        //  console.log("entrou no else",i, cardNumber[i], "essa posição é par", dobra )
           
           if (dobra > 9) {
               sub = dobra - 9
-          console.log(" o dobro é maior que 9")
+        //  console.log(" o dobro é maior que 9")
               total = total + sub
           }
   
           else {
               total = total + dobra
           
-  
   
           } if (total % 10 === 0 ) { 
            
@@ -48,9 +47,6 @@ const validator = {
 
             return false;
             
-            
-        
-  
           }
   
   

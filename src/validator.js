@@ -39,13 +39,12 @@ const validator = {
   
   
           } if (total % 10 === 0 ) { 
-           // alert("Tudo Ok! Podemos prosseguir!") 
-           return true;
            
+           return true;
            
     
           } else{ 
-           // alert("Cartão Invalido ou Inexistente! Preencha corretamente!")
+           
 
             return false;
             

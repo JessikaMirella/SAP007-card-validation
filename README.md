@@ -390,7 +390,8 @@ crédito](https://img.youtube.com/vi/f0zL6Ot9y_w/0.jpg)](https://www.youtube.com
 Desenho da experiência do usuário (User Experience Design):
 
 - Ideação
-- Prototipagem
+- Prototipagem[README.md](https://github.com/JessikaMirella/SAP007-card-validation/files/8053966/README.md)
+
 - Teste e iteração
 
 Desenvolvimento de front-end:

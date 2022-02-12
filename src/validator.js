@@ -5,8 +5,6 @@ const validator = {
   isValid: 
 
   function (cardNumberString) { 
-
-
    console.log(cardNumberString, "string")
     let cardNumber = cardNumberString.split("")
     console.log(cardNumber, "array?")
@@ -16,9 +14,7 @@ const validator = {
     let dobra = 0
     let sub = 0
     let total = 0
-    
-   
-  
+
   for (let i = 0; i < cardNumber.length; i++) {
   
       if (i % 2 === 0) {
@@ -30,7 +26,8 @@ const validator = {
       } else {
           dobra = cardNumber[i] * 2;
           console.log("entrou no else",i, cardNumber[i], "essa posição é par", dobra )
-          if (dobra >= 10) {
+          
+          if (dobra > 9) {
               sub = dobra - 9
           console.log(" o dobro é maior que 9")
               total = total + sub
@@ -42,15 +39,15 @@ const validator = {
   
   
           } if (total % 10 === 0 ) { 
-            alert("Tudo Ok! Podemos prosseguir!") 
-           return true
+           // alert("Tudo Ok! Podemos prosseguir!") 
+           return true;
            
            
     
           } else{ 
-            alert("Cartão Invalido ou Inexistente! Preencha corretamente!")
+           // alert("Cartão Invalido ou Inexistente! Preencha corretamente!")
 
-            return false
+            return false;
             
             
         
@@ -60,32 +57,21 @@ const validator = {
   
       }
     }
+  },
+
+  maskify:
+  
+    function (cardNumber) {
+
+    if (cardNumber.length < 6) return cardNumber;
+    let last4 = cardNumber.substr(-4);
+    let first = cardNumber.substr(0, 0);
+    let maskingCharacters = cardNumber.substr(1, cardNumber.length - 5).replace(/\d/g, '#');
+   return  `${first}${maskingCharacters}${last4}` ;
   }
-
-    
-
-
-    
-    
+   
+  };
   
-
-
-
-
-};
-  
-//  function mascarar (cardNumberT){
-//  if (cardNumberT.length < 6) return cardNumbeT;
- // const last4Characters = cardNumberT.substr(-4);
- // const firstCharacter = cardNumberT.substr(0, 0);
-  //const maskingCharacters = cardNumberT.substr(1, cardNumberT.length - 5).replace(/\d/g, '#');
-  //return `${firstCharacter}${maskingCharacters}${last4Characters}`;
-
-//};
-
-//console.log(mascarar)(cardNumber)
-  
-
 
    export default validator;
 

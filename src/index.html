@@ -20,16 +20,26 @@
 
 
       <div class="container">
-        <div class="input"><input id="numeroCartao" class="inputNum" type="tel" inputmode="numeric"
-            pattern="[0-9]{13,19}" title="Digite de 13 a 19 números*" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
-          </input></div>
+        <div class="paragrafo">
+          <p id="validacao"></p>
+        </div>
+
+        <div class="input">
+          <input id="numeroCartao" type="tel" inputmode="numeric" class="inputNumero" pattern="[0-9]{10,19}"
+            title="Digite de 10 a 19 números*" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+        </div>
       </div>
       <div class="button">
         <button id="botao" type="submit" class="btn">Confirmar</button><br>
-
+        <div class="paragrafo">
+          <p id="valorDigitado" class="valorFinal"></p>
+        </div>
       </div>
     </div>
 
 
 
   </form>
+</body>
+
+</html>

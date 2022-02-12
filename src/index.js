@@ -4,27 +4,34 @@ console.log(validator)
 
 
 
+
 let botaoConfirma = document.getElementById("botao");
 
+botaoConfirma.addEventListener("click", function (event) {
+    event.preventDefault()
 
-botaoConfirma.addEventListener("click", function () {
     let cardNumber = document.getElementById("numeroCartao").value;
-    let resultado = validator.isValid(cardNumber)
-    
-    console.log("clicou!", cardNumber, resultado)
+    let resultado = validator.isValid(cardNumber);
+    let mascara = validator.maskify(cardNumber);
+
+
+
+    if (document.getElementById("numeroCartao").value.length < 3) {
+
+        document.getElementById("validacao").textContent = "Preencha todos os campos!";
+
+    }
+    else if (resultado === true) {
+        document.getElementById("validacao").textContent = mascara + "\n\nCartão Válido!";
+
+    } else {
+
+        document.getElementById("validacao").textContent = "Cartão Inválido ou Inexistente!";
+    }
 
 });
 
-botaoConfirma.addEventListener("click", function () {
-    
-    if (document.getElementById("numeroCartao").value.length < 3) {
-        alert('Por favor, preencha todos os campos');
-        document.getElementById("numeroCartao").focus();
 
-        return false
-
-
-}});
 
 
 

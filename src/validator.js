@@ -7,10 +7,10 @@ const validator = {
   function (cardNumberString) { 
    console.log(cardNumberString, "string")
     let cardNumber = cardNumberString.split("")
-    console.log(cardNumber, "array?")
+    //console.log(cardNumber, "array?")
 
     cardNumber.reverse();
-    console.log (cardNumber, "inverteu?")
+   // console.log (cardNumber, "inverteu?")
     let dobra = 0
     let sub = 0
     let total = 0

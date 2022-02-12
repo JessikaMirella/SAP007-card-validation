@@ -3,11 +3,14 @@
 
 ## 1. Descrição:
 
-O Projeto está em desenvolvimento, na área de validação de cartões, para isso foi criado um cenário fictício de uma tela de e-commerce finalizando uma compra.
-
-O objetivo do validador, é verificar a existência do cartão o qual o número foi digitado, aplicando o "Algoritmo de Luhn"(gerar um link), que retornará uma mensagem em seguida com o resultado. Isso permitirá prosseguir para as outras etapas de uso do cartão, como por exemplo realizar uma compra, como é sugerido em nosso cenário fictício.
 
 ![ Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+O Projeto está em desenvolvimento, na área de validação de cartões, para isso foi criado um cenário fictício de uma tela de e-commerce finalizando uma compra.
+
+O objetivo do validador, é verificar a existência do cartão o qual o número foi digitado, aplicando o "Algoritmo de Luhn", que retornará uma mensagem em seguida com o resultado. Isso permitirá prosseguir para as outras etapas de uso do cartão, como por exemplo realizar uma compra, como é sugerido em nosso cenário fictício.
+
+
 
 
 
@@ -19,8 +22,16 @@ O validador possui alguns aspectos interessantes para facilitar seu uso como: N�
 
  Destinado a quem trabalha com pagamentos e transações com cartões de crédito, precisará de um sistema seguro de verificação, inclusive, as etapas posteriores do projeto incluiriam também a verificação da emissora do cartão. Em um cenário real, seu uso poderia ser implementado em e-commerces, serviços de reservas, e até mesmo validação e desbloqueio do cartão.
 
+ ## Desenho do projeto:
+
+ 
+
+Um primeiro esboço simplesfeito no Photoshop:
+
+ <img src="Esboço_P.png" alt="desenho_projeto">
+
  ## 4. Considerações Finais:
 
   Os desafios de aprendizagem proporcionados por esse projeto são inúmeros, e permitem uma prática eficiente tanto da linguagem "Javascript", como também formatação de estilo e texto a partir do "HTML" e "CSS", além de boas práticas de planejamento e método Agile.
 
-![Desenho_Projeto](http://url/to/desenho.png)
+

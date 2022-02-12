@@ -13,12 +13,12 @@ Retornamos um valor boolean (se for divisivel retorna true, se não false)
 
 Maskfy:
 
+Mascarar os primerios digitos (subst ou for?`)
 
 
 
+Index: 
 
-
-
-
-Index:
+Manipulação do Dom;
+Chamar as funçoes;
 

@@ -7,7 +7,7 @@ console.log(validator)
 
 let botaoConfirma = document.getElementById("botao");
 
-    botaoConfirma.addEventListener("click", function (event) {
+botaoConfirma.addEventListener("click", function (event) {
     event.preventDefault()
 
     let cardNumber = document.getElementById("numeroCartao").value;

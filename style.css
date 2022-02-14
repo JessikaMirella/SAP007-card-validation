@@ -9,12 +9,11 @@ body{
   
   }
 
-  
 h1 {
     color: #ffffff;
     font-size: 30px;
     text-align: center;
-    margin: 100px auto;    /*direçoes dos lados*/
+    margin: 100px auto;    
     background-color:#ff5c8a;
     font-family:"Lucida Sans";
     border:5px solid #ffffff; 
@@ -22,7 +21,6 @@ h1 {
     width: 60%;
     height:65px; 
   }
-
 
 .input{  
     
@@ -36,7 +34,6 @@ h1 {
 
   }
 
-
 .container {
     color: #ffffff;
     font-size: 20px;
@@ -45,7 +42,7 @@ h1 {
     width: 350px;
     height:185px;
     border: 40px solid;
-    border:20px  #ff8fa3;         /*contorno do cartao*/
+    border:20px  #ff8fa3;         
     display: block;
     margin: 150px auto;
     background:#ff0a54;
@@ -55,11 +52,11 @@ h1 {
     background-position: 10% 50%;
     margin-top: 50px;
     margin-bottom: 10px;
-    padding: 10px;                /*tamanho do cartao*/
-    text-align: center;           /*posiçao do input*/
+    padding: 10px;                
+    text-align: center;           
     border-radius: 50px;
    -moz-border-radius: 50px;
-   -webkit-border-radius: 10px; }   /*arredondando o cartao*/
+   -webkit-border-radius: 10px; }   
 
 
    .btn{
